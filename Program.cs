@@ -49,8 +49,8 @@ class Program {
     static void Main(){
         Hero hero1 = new Hero("Hero", "00", 100, 5, 0);
 
-         Console.WriteLine($"Name: {hero1.Name}\nPosition: {hero1.Position}\nHealth: {hero1.Health}\nDamage: {hero1.Damage}\nXP {hero1.Experience}");
-         Slime.Attack(Slime.slimeDamage = 3 );
-         //Console.WriteLine(Slime.slimeDamage);
+        Console.WriteLine($"Name: {hero1.Name}\nPosition: {hero1.Position}\nHealth: {hero1.Health}\nDamage: {hero1.Damage}\nXP {hero1.Experience}");
+        Slime.Attack(Slime.slimeDamage = 3 );
+        //Console.WriteLine(Slime.slimeDamage);
     }
 }
