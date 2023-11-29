@@ -12,3 +12,17 @@ C:\Users\august.wendel\Desktop\C#_classes\classes\obj\Debug\net7.0\refint\classe
 C:\Users\august.wendel\Desktop\C#_classes\classes\obj\Debug\net7.0\classes.pdb
 C:\Users\august.wendel\Desktop\C#_classes\classes\obj\Debug\net7.0\classes.genruntimeconfig.cache
 C:\Users\august.wendel\Desktop\C#_classes\classes\obj\Debug\net7.0\ref\classes.dll
+C:\Users\august.wendel\Desktop\C#_classes\bin\Debug\net7.0\classes.exe
+C:\Users\august.wendel\Desktop\C#_classes\bin\Debug\net7.0\classes.deps.json
+C:\Users\august.wendel\Desktop\C#_classes\bin\Debug\net7.0\classes.runtimeconfig.json
+C:\Users\august.wendel\Desktop\C#_classes\bin\Debug\net7.0\classes.dll
+C:\Users\august.wendel\Desktop\C#_classes\bin\Debug\net7.0\classes.pdb
+C:\Users\august.wendel\Desktop\C#_classes\obj\Debug\net7.0\classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\august.wendel\Desktop\C#_classes\obj\Debug\net7.0\classes.AssemblyInfoInputs.cache
+C:\Users\august.wendel\Desktop\C#_classes\obj\Debug\net7.0\classes.AssemblyInfo.cs
+C:\Users\august.wendel\Desktop\C#_classes\obj\Debug\net7.0\classes.csproj.CoreCompileInputs.cache
+C:\Users\august.wendel\Desktop\C#_classes\obj\Debug\net7.0\classes.dll
+C:\Users\august.wendel\Desktop\C#_classes\obj\Debug\net7.0\refint\classes.dll
+C:\Users\august.wendel\Desktop\C#_classes\obj\Debug\net7.0\classes.pdb
+C:\Users\august.wendel\Desktop\C#_classes\obj\Debug\net7.0\classes.genruntimeconfig.cache
+C:\Users\august.wendel\Desktop\C#_classes\obj\Debug\net7.0\ref\classes.dll

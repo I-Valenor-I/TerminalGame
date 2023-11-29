@@ -19,6 +19,8 @@ public class Hero {
         Experience = experience;
     }
 
+
+
 }
 
 public class Monster {
@@ -28,15 +30,19 @@ public class Monster {
     public float Monster_Damage {get; set;} = 0;
     public int Experience_value {get; set;} = 0;
 
+    public static void Attack(float Monster) {
+        Console.WriteLine("Attack");
+    }
+
 
 }
 
 public class Slime : Monster {
-    string slime = "Slime";
-    string slimePosition = "00";
-    float slimeHealth = 15;
-    float slimeDamage = 2;
-    int slimeXPValue = 5;
+    public string slime = "Slime";
+    public string slimePosition = "00";
+    public float slimeHealth = 15;
+     public static float slimeDamage = 2;
+    public int slimeXPValue = 5;
 }
 
 class Program {
@@ -44,5 +50,7 @@ class Program {
         Hero hero1 = new Hero("Hero", "00", 100, 5, 0);
 
          Console.WriteLine($"Name: {hero1.Name}\nPosition: {hero1.Position}\nHealth: {hero1.Health}\nDamage: {hero1.Damage}\nXP {hero1.Experience}");
+         Slime.Attack(Slime.slimeDamage = 3 );
+         //Console.WriteLine(Slime.slimeDamage);
     }
 }
