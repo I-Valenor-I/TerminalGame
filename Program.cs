@@ -32,6 +32,7 @@ public class Monster {
 
     public static void Attack(float Monster) {
         Console.WriteLine("Attack");
+        Console.WriteLine(Monster);
     }
 
 
@@ -41,16 +42,17 @@ public class Slime : Monster {
     public string slime = "Slime";
     public string slimePosition = "00";
     public float slimeHealth = 15;
-     public static float slimeDamage = 2;
+    public static float slimeDamage = 2;
     public int slimeXPValue = 5;
 }
 
 class Program {
     static void Main(){
         Hero hero1 = new Hero("Hero", "00", 100, 5, 0);
+        Slime slime01 = new Slime("Slime", "00", 15, 2, 5);
 
         Console.WriteLine($"Name: {hero1.Name}\nPosition: {hero1.Position}\nHealth: {hero1.Health}\nDamage: {hero1.Damage}\nXP {hero1.Experience}");
-        Slime.Attack(Slime.slimeDamage = 3 );
+        Slime.Attack(Slime.slimeDamage = 3);
         //Console.WriteLine(Slime.slimeDamage);
     }
 }
